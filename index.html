@@ -18,38 +18,6 @@
   </head>
 
   <body>
-    <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-
-      <label for="navi-toggle" class="navigation__button">
-        <span class="navigation__icon">&nbsp;</span>
-      </label>
-
-      <div class="navigation__background">&nbsp;</div>
-
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>01</span>About Natous</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>02</span>Your benfits</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"
-              ><span>03</span>Popular tours</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>04</span>Stories</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>05</span>Book now</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
     <header class="header">
       <div class="header__logo-box">
         <img src="img/logo-white.png" alt="Logo" class="header__logo" />
@@ -346,7 +314,113 @@
           <a href="#" class="btn-text">Read all stories &rarr;</a>
         </div>
       </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Start booking now</h2>
+              </div>
+              <form action="#" class="form u-margin-bottom-medium">
+                <div class="form__group">
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Full name"
+                    required
+                    id="name"
+                  />
+                  <label class="form__lable" for="name">Full name</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    class="form__input"
+                    type="email"
+                    placeholder="Email address"
+                    required
+                    id="email"
+                  />
+                  <label class="form__lable" for="email">Email address</label>
+                </div>
+
+                <div class="form__group">
+                  <div class="form__radio-group">
+                    <input
+                      class="form__radio-input"
+                      type="radio"
+                      id="small"
+                      name="tourType"
+                    />
+                    <label class="form__radio-lable" for="small">
+                      <span class="form__radio-button"></span>
+                      Small tour group</label
+                    >
+                  </div>
+                  <div class="form__radio-group">
+                    <input
+                      class="form__radio-input"
+                      type="radio"
+                      id="large"
+                      name="tourType"
+                    />
+                    <label class="form__radio-lable" for="large">
+                      <span class="form__radio-button"></span>
+                      Large tour group</label
+                    >
+                  </div>
+                </div>
+              </form>
+              <div class="form__group">
+                <button class="btn btn--green">Next step &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img class="footer__logo" src="img/logo-green-2x.png" alt="logo" />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contacts</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="footer__copyright">
+            Build by
+            <a href="#" class="footer__link">Katerina Tumakova</a>
+            <p>Copyright &copy;</p>
+            <p>
+              Kipsum dolor sit amet consectetur adipisicing elit. Nihil tempora
+              delectus doloribus adipisci optio quae unde architecto ea dicta
+              fugit? Facere accusantium aliquam quisquam rerum ratione odit
+              iste, quo ullam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!--
         <section class="grid-test">
